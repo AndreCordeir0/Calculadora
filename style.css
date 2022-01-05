@@ -1,0 +1,107 @@
+body{
+  background: #212529;
+  margin: 0;
+
+}
+.buttons{
+  display: grid;
+  grid-template-columns: repeat(4,80px);
+  position: relative  ;
+  left: 500px;
+  margin: 0;
+  top: 20px;
+  height: 370px;
+  width: 100px;
+
+}
+.buttons button{
+  width: auto;
+  background: #1f1f1f;  
+  color: white;
+  border-radius: 4px;
+  border-style:double;
+  border-color: #212529;
+  margin: 0;
+}
+#mais{
+ order: 9;
+}
+#num3{
+  order: 9;
+ }
+ #num2{
+  order: 9;
+ }
+ #num1{
+  order: 9;
+ }
+ #menos{
+  order:8  ;
+ }
+ 
+ #num4{
+  order: 6;
+ }
+ #num5{
+  order: 7;
+ }
+ #num6{
+  order: 8;
+ }
+ #num7{
+  order: 4;
+ }
+ #num8{
+  order: 4;
+ }
+ #num9{
+  order: 4;
+ }
+ #del{
+  order: 2;
+ }
+ #ac{
+  order:1;
+ }
+ #vezes{
+  order: 2;
+ }
+ #divisao{
+  order: 4;
+ }
+ #igual{
+   order: 10;
+   padding: 0px 158px;  
+ }
+
+ .tela{
+  background: #1f1f1f; 
+  color: white;
+  text-align: right;
+  position: relative;
+  width: 316px;
+  left: 502px;
+  margin: 0;
+  top: 26px;
+  height: 140px;
+ }
+
+ #telinha{
+   font-size: 19px;
+   font-family: 'Times New Roman', Times, serif;
+ }
+ #resultado{
+   
+  
+  font-size: 34px;
+  font-family:cursive;
+}
+
+ 
+button:hover{
+  transform: scale(1.1);
+}
+
+#igual:hover{
+  transform: scale(1.025);
+}
